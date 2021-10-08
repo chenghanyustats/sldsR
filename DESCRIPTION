@@ -1,0 +1,16 @@
+Package: sldsR
+Title: Switching Linear Dynamical Systems with R
+Version: 0.0.0.9000
+Authors@R: person("Cheng-Han", "Yu", email = "uuuumike@gmail.com", role = c("aut", "cre"))
+Description: MCMC and variational inference algorithm for running switching linear dynamical systems. 
+Depends: R (>= 3.3.3)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dlm,
+    stats,
+    emulator,
+    HMM,
+    HiddenMarkov
+RoxygenNote: 6.1.1
